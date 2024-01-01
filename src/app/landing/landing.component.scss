@@ -294,7 +294,7 @@ flex-wrap: wrap;
 nav{
 
 
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 
 nav >h1{
@@ -306,17 +306,28 @@ nav >h1{
 nav >ul{
 	
 
-	width: 70%;
+	width: 75%;
 
-	margin-right: 0px;
-	margin-left: 10px;
+
 	font-size: 12px;
 }
 
-nav .left{
-	width:30% ;
-	margin-right: 10px;
+
+.right li {
 	margin-left: 10px;
+
+}
+
+.nameweb{
+	margin-left: 15px;
+}
+
+
+
+
+
+nav .left{
+	width:25% ;
 	
 }
 
